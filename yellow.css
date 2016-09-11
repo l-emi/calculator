@@ -1,0 +1,47 @@
+
+#displayer {
+    height: 25%;
+    background-color: #ffe;
+}
+
+#buttons {
+    font-size: 1.5em;
+    color: #424848;
+}
+
+button {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 15%;
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: #F4E19F;
+    border: 1px solid /*#7B7878*/ #ffe;
+    border-bottom: none;
+    border-left: none;
+}
+
+button:active {
+    background-color: #e8d494;
+}
+
+.midpink {
+    background-color: #f5d985;
+    color: #ffe;
+}
+
+.midpink:active {
+    background-color: #edcf7d;
+}
+
+
+.darkpink {
+    background-color: #F6D073;
+    color: #ffe;
+    border-right: none;
+}
+
+.darkpink:active {
+    background-color: #e8c269;
+}

@@ -1,0 +1,141 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #54433c;
+    background-image: url("https://www.transparenttextures.com/patterns/crissxcross.png");
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#calcbox {
+    height: 400px;
+    width: 300px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.62);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.62);
+    background-color: #F8B8B8;
+}
+
+#displayer {
+    height: 25%;
+    background-color: /*#F1DBDB*/ #fee;
+}
+
+#buttons {
+    font-size: 1.5em;
+    color: #424848;
+}
+
+button {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 15%;
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: #F8B8B8;
+    border: 1px solid /*#F1DBDB*/ #fee;
+    border-bottom: none;
+    border-left: none;
+}
+
+button:active {
+    background-color: #f2b2b1;
+}
+
+#buttonrow {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.midpink {
+    background-color: #F7A3A3;
+    color: #F1DBDB;
+}
+
+.midpink:active {
+    background-color: #f29c9b;
+}
+
+
+.darkpink {
+    background-color: #F28988;
+    color: #F1DBDB;
+    border-right: none;
+}
+
+.darkpink:active {
+    background-color: #eb8381;
+}
+
+#displayer {
+    position: relative;
+    overflow: hidden;
+}
+
+#entry {
+    color: #5A5D5D;
+    position: absolute;
+    margin-right: 10px;
+    padding-top: 25px;
+    font-size: 4em;
+    right: 0;
+    max-width: 93%;
+}
+
+#display {
+    overflow-x: auto;
+    text-align: right;
+}
+
+.twice {
+    width:50%;
+}
+
+.absolute-center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#colorme {
+    display: none;
+    margin-top: 10;
+    height: 60px;
+    margin-left: 22%;
+    margin-right: 20%;
+}
+
+#colorme:show {
+    display: inline-block;
+}
+
+.box {
+    margin: 10px;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+#pinky {
+    background-color: #F7A3A3;
+}
+
+#minty {
+    background-color: #A1E3AF;
+}
+
+#banana {
+    background-color: #FEFCAF;
+}

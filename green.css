@@ -1,0 +1,47 @@
+
+#displayer {
+    height: 25%;
+    background-color: #efe;
+}
+
+#buttons {
+    font-size: 1.5em;
+    color: #424848;
+}
+
+button {
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 15%;
+    width: 25%;
+    display: block;
+    float: left;
+    background-color: #B8F2C9;
+    border: 1px solid /*#7B7878*/ #efe;
+    border-bottom: none;
+    border-left: none;
+}
+
+button:active {
+    background-color: #ADE3BC;
+}
+
+.midpink {
+    background-color: #A1E3AF;
+    color: mintcream;
+}
+
+.midpink:active {
+    background-color: #9AD9A7;
+}
+
+
+.darkpink {
+    background-color: #8DC496;
+    color: mintcream;
+    border-right: none;
+}
+
+.darkpink:active {
+    background-color: #86BA8E;
+}
