@@ -3,7 +3,9 @@
 //animation happens when you click present button
 //color scheme changes! 
 
-//stores the key categories that can be clicked
+/**********************************************
+* Stores the key categories that can be clicked
+***********************************************/
 var keyclass = {
     NUM: 1,
     DOT: 2,
@@ -12,7 +14,9 @@ var keyclass = {
     EQUALS: 5
 }
 
-//stores the states 
+/*********************
+* Stores the states
+**********************/
 var states = {
     //default state
     START: 1,
@@ -33,7 +37,9 @@ var states = {
 }
 
 
-//contains functionality related to the calculator
+/****************************************
+* Contains functionality of calcultor
+*****************************************/
 var calc = {
     //monitors current state
     state: states.START,
@@ -249,7 +255,11 @@ var calc = {
     }
 }
 
-//set click listeners -- define what happens when a particular key is pressed
+
+/******************************************************
+* Set click listeners
+* Define what happens when a particular key is pressed
+*******************************************************/
 $(".digits").on("click", function() {
     calc.doStep(keyclass.NUM, $(this).html());
 })
@@ -282,11 +292,10 @@ $("#ce").on("click", function() {
 $("#display").text(0);
 
 
-//color options
 
-
-
-
+/***********************
+* Color options
+***********************/
 $("#surprise").on("click", function() {
     TweenMax.from(".box", 0.6, {opacity:0, scale:0, ease:Bounce.easeOut});
     $("#colorme").toggle();
@@ -303,27 +312,4 @@ $("#minty").on("click", function() {
 $("#banana").on("click", function() {
     $('body').append('<link id="yellow" rel="stylesheet" type="text/css" href="yellow.css">')
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

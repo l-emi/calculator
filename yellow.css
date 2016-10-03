@@ -1,4 +1,3 @@
-
 #displayer {
     height: 25%;
     background-color: #ffe;
@@ -10,14 +9,14 @@
 }
 
 button {
-    padding: 0 !important;
-    margin: 0 !important;
-    height: 15%;
+    padding: 0px !important;
+    margin: 0px !important;
     width: 25%;
+    height: 100%;
     display: block;
     float: left;
     background-color: #F4E19F;
-    border: 1px solid /*#7B7878*/ #ffe;
+    border: 1px solid #ffe;
     border-bottom: none;
     border-left: none;
 }
